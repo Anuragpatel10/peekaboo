@@ -3,7 +3,7 @@
   "description": "Peekable transform stream",
   "version": "1.0.0",
   "repository": "git://github.com/hapijs/peekaboo",
-  "main": "index",
+  "main": "lib/index.js",
   "keywords": [
     "stream",
     "transform",
