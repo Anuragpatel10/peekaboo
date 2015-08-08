@@ -3,7 +3,7 @@
   "description": "Peekable transform stream",
   "version": "1.0.0",
   "repository": "git://github.com/hapijs/peekaboo",
-  "main": "index",
+  "main": "lib/index.js",
   "keywords": [
     "stream",
     "transform",
@@ -19,12 +19,8 @@
     "lab": "5.x.x"
   },
   "scripts": {
-    "test": "make test-cov"
+    "test": "lab -a code -t 100 -L",
+    "test-cov-html": "lab -a code -r html -o coverage.html" 
   },
-  "licenses": [
-    {
-      "type": "BSD",
-      "url": "http://github.com/hapijs/peekaboo/raw/master/LICENSE"
-    }
-  ]
+  "license": "BSD-3-Clause"
 }
