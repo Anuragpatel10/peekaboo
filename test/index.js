@@ -83,8 +83,8 @@ describe('Peek', () => {
 
         emitter.once('finish', () => {
 
-            expect(seen).to.deep.equal(chunks);
-            expect(target.data).to.deep.equal(chunks);
+            expect(seen).to.equal(chunks);
+            expect(target.data).to.equal(chunks);
             done();
         });
 
